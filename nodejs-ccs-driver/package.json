@@ -4,7 +4,8 @@
 	"description": "Simple nodejs driver for CCS.",
 	"main": "index.js",
 	"scripts": {
-		"test": "node index.js"
+		"test": "node index.js",
+		"start": "node index.js"
 	},
 	"dependencies": {
 		"mysql": "*",
@@ -14,9 +15,6 @@
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com/basanjeev/ccs-w3c-client.git"
-	},
-	"scripts": {
-		"start": "node index.js"
 	},
 	"keywords": [
 		"ccs",
